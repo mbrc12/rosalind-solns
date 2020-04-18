@@ -1,0 +1,21 @@
+name:                rosalind-solns
+version:             0.1.0.0
+github:              "mbrc12/rosalind-solns"
+license:             BSD3
+author:              "Mriganka Basu Roy Chowdhury"
+maintainer:          "mbrc12@gmail.com"
+copyright:           "MIT"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+
+dependencies:
+- base >= 4.7 && < 5
+- split >= 0.2.3.4
+- array >= 0.5.4.0
+- containers >= 0.6.2.1
+
+library:
+  source-dirs: src

@@ -1,0 +1,6 @@
+#!/bin/fish
+
+set fcn $argv[1]
+set module (string upper $argv[1])
+
+cat template.hs | sed 's/<++>/'$fcn'/g' | sed 's/<-->/'$module'/g' > src/$module.hs
